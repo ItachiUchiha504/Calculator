@@ -1,0 +1,77 @@
+#frame{
+    width: 250px;
+    height: 500px;
+    background-color:#EBEBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #E4E3E4;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#resultFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color:#EBEBEB;
+    width: 240px;
+    height: 150px;
+    border: 1px black dotted;
+    gap: 35px;
+
+}
+
+#result {
+    font-size: 40px;
+    color: grey;
+    letter-spacing: 4px;
+
+    
+
+}
+
+#process {
+    color:#B3B0B1 ;
+}
+
+
+
+.numberFather {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(4,50px);
+    gap: 10px;
+
+}
+
+.numbers {
+    text-align: center;
+    padding: 15px 10px 3px 10px;
+    width: 30px ;
+    height: 30px;
+    background-color:#EFEDEE;
+    border-radius: 10px;
+    color:#B3B0B1;
+    box-shadow: 2px 2px 1px 1px #E4E3E4;
+
+}
+
+#equal{
+    padding: 15px 37px 3px 37px;
+    background-color:#ED802E;
+    color: white;
+}
+
+.numbers:hover{
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+#equal:hover {
+background-color: rgba(255, 86, 24, 0.616);
+}
