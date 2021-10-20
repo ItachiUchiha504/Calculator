@@ -21,21 +21,6 @@ let result = document.getElementById("result");
 let userScore = 0; 
 
 
-
-    function sum(){
-        for(i=0;i<=50;i++){
-            zero.addEventListener("click",()=>{
-                return 0;
-            })
-
-        } break (equal.addEventListener("click",()=>{
-            return answer
-        }))
-
-
-
-}
-
 equal.addEventListener("click", ()=>{
   result.innerHTML = userScore++;
 })
