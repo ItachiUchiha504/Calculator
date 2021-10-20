@@ -29,6 +29,11 @@ one.addEventListener("click", ()=>{
     result.innerHTML = userScore--;
   })
 
+  one.addEventListener("touchstart", ()=>{
+    result.innerHTML = userScore--;
+  })
 
-
+  equal.addEventListener("touch", ()=>{
+    result.innerHTML = userScore++;
+  })
 
